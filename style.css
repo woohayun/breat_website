@@ -1,0 +1,550 @@
+header {
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 115px;
+    background:rgba(255, 255, 255, 0.105);
+    z-index:100;
+}
+
+header h1{
+    float: left;
+    font-size: 50px;
+    font-weight: 900;
+    color:#212121;
+    margin-top: 32px;
+}
+
+header ul{
+    float: right;
+    margin-top:45px;
+    color:#212121;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 30px;
+    transition:0.2s;
+}
+
+
+header ul li:hover {
+    color:#fff;
+}
+
+header ul li img{
+    width: 20px;
+    margin: -10px;
+    text-align: center;
+}
+
+section .banner{
+    position: relative; 
+
+}
+
+section  .banner .swiper-slide {
+    width: 100%;
+    height: 840px;
+    background:url('../img/00_main\ img/Breat_main.jpg') no-repeat;
+    background-size:cover;
+
+}
+
+section  .banner .swiper-slide:nth-child(2) {
+    width: 100%;
+    height: 840px;
+    background:url('../img/00_main\ img/breat_main_two.jpg') no-repeat; 
+    background-size:cover;
+
+}
+
+section  .banner .swiper-slide:nth-child(3) {
+    width: 100%;
+    height: 840px;
+    background:url('../img/00_main\ img/breat_main_three.jpg') no-repeat; 
+    background-size:cover;
+
+}
+
+section  .banner .swiper-slide:nth-child(4) {
+    width: 100%;
+    height: 840px;
+    background:url('../img/00_main\ img/breat_main_four.jpg') no-repeat; 
+    background-size:cover;
+
+}
+
+section .banner .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    margin: 0 20px 10px 0;
+}
+
+section .banner .swiper-pagination-bullet-active {
+    background:#ae7249;
+
+}
+
+section .banner .text {
+    margin-top:350px;
+}
+
+section .banner .text p:nth-child(1) { 
+    font-size:57px;
+    font-weight: 900;
+    color:#212121;
+
+}
+
+section .banner .text p {
+    font-size: 22px;
+    font-weight: normal;
+    color: #212121;
+    line-height: 1.5;
+    font-weight: 350;
+}
+
+
+section .best_bread {
+    background-color: #f7f3ed;
+    padding: 100px 0;   
+}
+
+section .best_bread h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #212121;
+    margin-bottom: 80px;
+}
+
+
+section .best_bread .bread_box_wrap .box {
+    width: 400px;
+    height: 560px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 40px;
+}
+
+
+section .best_bread .bread_box_wrap .box:last-child {
+    margin-right: 0;
+}
+
+section .best_bread .bread_box_wrap .box .text_box p{
+    height: 17px;
+    padding: 16px;
+    margin: 16px;
+    margin-top: 16px;
+    color:#212121;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: -0.35px;
+}
+
+section .best_bread .bread_box_wrap .box .text_box h3{
+    height: 17px;
+    padding: 16px;
+    margin: 16px;
+    margin-top: -12px;
+    margin-bottom: -10px;
+    color:#212121;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+section .regional_bakeries {
+    background-color: #f3eae2;
+    padding: 80px 0;
+    
+}
+
+section .regional_bakeries h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #212121;
+    margin-bottom: 40px;
+}
+
+section ul{
+    float: center;
+    margin-top:25px;
+    margin-right: 22px;
+    margin: 25px 0 0 0;
+    color:#080808;
+    text-align:center;
+}
+
+section ul li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 18px;
+    text-align:center;
+    padding: 35px 0;
+    cursor: pointer;
+}
+
+section li:first-child{color:#bf8257;}
+    
+section .regional_bakeries .best_box_wrap .box {
+    width: 400px;
+    height: 560px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+section .regional_bakeries .best_box_wrap .box .text_box h3{
+    height: 17px;
+    padding: 16px;
+    margin: 16px;
+    margin-top: -17px;
+    margin-bottom: -10px;
+    color:#212121;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+section .regional_bakeries .best_box_wrap .box .text_box p{
+    height: 17px;
+    padding: 16px;
+    margin: 16px;
+    margin-top: 16px;
+    color:#212121;
+    font-size: 16px;
+    
+}
+
+section .regional_bakeries .best_box_wrap .box:nth-child(3n) {
+    margin-right: 0;
+}
+
+section .TODAY_HOT_PLACE {
+    background-color: #efe1d4;
+    padding: 80px 0;
+    
+}
+
+section .TODAY_HOT_PLACE h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #212121;
+    margin-bottom: 80px;
+}
+ 
+section .TODAY_HOT_PLACE .best_box_wrap .box {
+    width: 100%;
+    height: 620px;
+    margin: 0 40px 50px 0;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .image_box {
+    float:left;
+    width:50%;
+    margin-right: 2px;
+    padding-right:40px;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_box h3{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    line-height:1.3;
+    color: #121111;
+    padding: 136px 0 0 0;
+    margin-bottom: 10px;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_box p{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    line-height:1.6;
+    color: #121111;
+    padding: 15px 0 0 0;
+}
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_box button {
+    padding:12px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #fefefe;
+    box-sizing: border-box;
+    background:#ae7249;
+    margin-top:35px;
+    transition:0.2s;
+}
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_box button:hover {
+    box-shadow:0 2px 10px #c09679;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .image_two_box {
+    float: right;
+    width:50%;
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_two_box h3{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+    line-height:1.3;
+    color: #121111;
+    padding: 140px 0 0 0;
+    margin-bottom: 10px;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_two_box p{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: right;
+    line-height:1.6;
+    color: #121111;
+    padding: 15px 0 0 0; 
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_two_box button {
+    padding:12px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #fefefe;
+    box-sizing: border-box;
+    background:#ae7249;
+    margin-top:35px;
+    transition:0.2s;
+    float: right;
+}
+
+section .TODAY_HOT_PLACE .best_box_wrap .box .text_two_box button:hover {
+    box-shadow:0 2px 10px #c09679;
+}
+
+section .event_banner{
+    position: relative;
+    height:345px;
+    background:url('../img/04_event_banner/이벤트배너 img.jpg') no-repeat;
+    background-size:cover;
+}
+
+section .event_banner .event_text p {
+    padding-top:100px;
+    columns: #212121;
+    font-size: 16px;
+}
+
+section .event_banner .event_text h2 {
+    padding-top:20px;
+    columns: #212121;
+    font-size:25px;
+    font-weight: 500;
+}
+
+section .event_banner .event_text h5 {
+    padding-top:20px;
+    columns: #212121;
+    font-size:17px;
+    font-weight: 400;
+    line-height: normal;
+    color:#0e0e0e;
+}
+
+section .BREAT’S_PLCK {
+    background-color: #ecd9c8;
+    padding: 80px 0;
+    
+}
+
+section .BREAT’S_PLCK .container {
+    overflow:hidden;
+}
+
+section .BREAT’S_PLCK {
+    position:relative;
+}
+
+
+section .BREAT’S_PLCK .container .swiper-container2>.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    margin:0 20px 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section .BREAT’S_PLCK .container .swiper-container2 .swiper-pagination-bullet-active {
+    background:#ae7249;
+
+}
+
+section .BREAT’S_PLCK h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #212121;
+    margin-bottom: 80px;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .image_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/강원도.jpg) no-repeat;
+    background-size: cover;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .text_box p:nth-child(1) {
+    height: 202px;
+    margin-bottom: -134px;
+    font-size:35px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 180px;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .text_box p {
+    height: 100px;
+    font-size:25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    line-height:normal;
+    padding: 0px;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .text_box {
+    margin: 0;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .Dam_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/팔당댐.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+section .BREAT’S_PLCK .best_box_wrap .box .jeolla_do_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/전라도.jpg) no-repeat;
+    background-size: cover;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .Jeju_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/제주.jpg) no-repeat;
+    background-size: cover;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .Seoul_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/서울.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+section .BREAT’S_PLCK .best_box_wrap .box .Gyeonggi-do_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/경기.jpg) no-repeat;
+    background-size: cover;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .Busan_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/부산.jpg) no-repeat;
+    background-size: cover;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box .Daejeon_box:nth-child(1) {
+    height: 520px;
+    background:url(../img/05_breat_pick/대전.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+section .BREAT’S_PLCK .best_box_wrap .box {
+    width: 620px;
+    height: 520px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+section .BREAT’S_PLCK .best_box_wrap .box:nth-child(2n) {
+    margin-right: 0;
+}
+
+section .INSTAGRAM {
+    background-color: #e7d0bc;
+    padding: 80px 0;
+    
+}
+
+section .INSTAGRAM h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #212121;
+    margin-bottom: 80px;
+}
+
+section .INSTAGRAM .best_box_wrap .box {
+    width: 290px;
+    height: 290px;
+    background-color: #ffffff;
+    float:left;
+    margin: 0 40px 40px 0;
+    transition:0.2s;
+}
+
+section .INSTAGRAM .best_box_wrap .box:hover  {
+    opacity: 0.6;
+}
+
+section .INSTAGRAM .best_box_wrap .box:nth-child(4n) {
+    margin-right: 0;
+}
+
+footer {	
+    width:100%;
+    height:213px;
+    background:#211002;	  
+    text-align: center;
+    padding: 50px;  
+
+}
+
+footer .footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color:#c9c9c9;
+    margin: 8px;
+}
+  
+footer ul li img{
+    width: 25px;
+    text-align: center;
+    margin: 4px;
+}
+
+@media (max-width:1280px){
+    .container {
+        width:100%;
+    }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:468px){
+
+}
