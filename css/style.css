@@ -397,7 +397,7 @@ section .BREAT’S_PLCK h2 {
 
 section .BREAT’S_PLCK .best_box_wrap .box .image_box:nth-child(1) {
     height: 520px;
-    background:url(../img/05_breat_pick/강원도.jpg) no-repeat;
+    background:url('../img/05_breat_pick/강원도.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -427,20 +427,20 @@ section .BREAT’S_PLCK .best_box_wrap .box .text_box {
 
 section .BREAT’S_PLCK .best_box_wrap .box .Dam_box:nth-child(1) {
     height: 520px;
-    background:url(../img/05_breat_pick/팔당댐.jpg) no-repeat;
+    background:url(../img/05_breat_pick/팔당댐.jpg) no-repeat;
     background-size: cover;
 }
 
 
 section .BREAT’S_PLCK .best_box_wrap .box .jeolla_do_box:nth-child(1) {
     height: 520px;
-    background:url(../img/05_breat_pick/전라도.jpg) no-repeat;
+    background:url(../img/05_breat_pick/전라도.jpg) no-repeat;
     background-size: cover;
 }
 
 section .BREAT’S_PLCK .best_box_wrap .box .Jeju_box:nth-child(1) {
     height: 520px;
-    background:url(../img/05_breat_pick/제주.jpg) no-repeat;
+    background:url(../img/05_breat_pick/제주.jpg) no-repeat;
     background-size: cover;
 }
 
